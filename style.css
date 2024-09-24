@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.contenedor_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilo para cada tarjeta */
+  .card-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Imagen de la pizza */
+  .card-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #eeee
+  }
+  .error {
+    background-color: #f8d7da;      /* Color de fondo para errores */
+    color: #721c24;                 /* Color del texto */
+    border: 1px solid #f5c6cb;      /* Borde del mismo color que el fondo */
+    border-radius: 5px;             /* Bordes redondeados */
+    padding: 10px;                  /* Espacio interno */
+    margin: 10px 0;                 /* Margen superior e inferior */
+    font-size: 14px;                /* Tamaño de fuente */
+    text-align: center;              /* Centra el texto */
+    display: inline-block;           /* Permite que el div tenga el tamaño del contenido */
+}
+.form-container {
+    max-width: 400px;              /* Ancho máximo del contenedor */
+    margin: auto;                  /* Centra el contenedor en la página */
+    padding: 20px;                 /* Espacio interno del contenedor */
+    border: 1px solid #ddd;        /* Borde del contenedor */
+    border-radius: 8px;            /* Bordes redondeados del contenedor */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #fff;        /* Color de fondo del contenedor */
+}
+
+input[type="number"] {
+    width: 100%;                   /* Ancho completo del input */
+    padding: 10px;                 /* Espacio interno */
+    border: 1px solid #ddd;        /* Borde del input */
+    border-radius: 5px;            /* Bordes redondeados */
+    margin-bottom: 10px;           /* Espacio debajo del input */
+    font-size: 16px;               /* Tamaño de fuente */
+}
+
+#agregar_boton {
+    width: 100%;                   /* Ancho completo del botón */
+    padding: 10px;                 /* Espacio interno */
+    background-color: #28a745;     /* Color de fondo del botón (verde) */
+    color: white;                  /* Color del texto del botón */
+    border: none;                  /* Sin borde */
+    border-radius: 5px;            /* Bordes redondeados */
+    font-size: 16px;               /* Tamaño de fuente */
+    cursor: pointer;               /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición para efecto hover */
+}
+
+#agregar_boton:hover {
+    background-color: #218838;     /* Color de fondo del botón al pasar el mouse */
+}
+
+.error {
+    background-color: #f8d7da;      /* Color de fondo para errores */
+    color: #721c24;                 /* Color del texto */
+    border: 1px solid #f5c6cb;      /* Borde del mismo color que el fondo */
+    border-radius: 5px;             /* Bordes redondeados */
+    padding: 10px;                  /* Espacio interno */
+    margin: 10px 0;                 /* Margen superior e inferior */
+    font-size: 14px;                /* Tamaño de fuente */
+    text-align: center;              /* Centra el texto */
+    display: inline-block;           /* Permite que el div tenga el tamaño del contenido */
+    width: 100%;                    /* Ancho completo para que coincida con el tamaño */
+
+}
+.hidden {
+    display: none; /* Clase para ocultar el elemento */
+}
+
+.visible {
+    display: block; /* Clase para mostrar el elemento (opcional) */
+}
+
+
